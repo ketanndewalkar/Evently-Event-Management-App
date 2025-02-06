@@ -60,11 +60,11 @@ const Signup = () => {
                         />
                         Remember Me
                         </label>
-                        <a href='#' className='text-sm text-[#FA701B] ml-20'>Forgot Password?</a>
+                        <a href='#' className='text-sm text-black ml-20'>Forgot Password?</a>
                     </div>
-                    <button className='w-full h-13 mt-14 bg-[#FA701B] text-white rounded-lg'>Log In</button>
+                    <button className='w-full h-13 mt-14 bg-black text-white rounded-lg'>Sign Up</button>
                 </form>
-                <p className='text-sm w-full text-center mt-6'>Already have Account?<span className='text-[#FA701B]' onClick={()=>navigate("/login")}> Log in</span> </p>
+                <p className='text-sm w-full text-center mt-6 text-gray-600'>Already have Account?<span className='text-black' onClick={()=>navigate("/login")}> Log in</span> </p>
                         
                     
     

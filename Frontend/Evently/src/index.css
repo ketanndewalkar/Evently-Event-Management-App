@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@font-face{
+    font-family:"custom1";
+    src:url('../asset/customer.otf');
+}
+
+.custom1{
+    font-family: "custom1";
+}
+
+@media (max-width:406px) {
+    .handle_logo{
+        font-size: 6vw;
+    }
+}
+
+@media (max-width:435px) {
+    
+
+    .handle_company{
+        height: 40vw;
+    }
+}

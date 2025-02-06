@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import LOGO from "../../asset/LOGO.png";
-import Subimg from "../../asset/Subimg.png";
+// import LOGO from "../../asset/LOGO.png";
+// import Subimg from "../../asset/Subimg.png";
+import Subimg from "../../asset/sofa.png";
 import { FaArrowRight } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import LOGO from "../../asset/FurniCraft.png";
 
 const Landing = () => {
     const navigate = useNavigate();
@@ -43,16 +45,16 @@ const Landing = () => {
   };
 
   return (
-    <div className="w-[100vw] h-[97vh] flex flex-col items-center relative">
+    <div className="w-[100vw] h-[100vh] flex flex-col items-center relative overflow-y-hidden">
       <img 
         src={LOGO} 
         className="w-[50%] mt-[10vh]" 
         />
       <img 
       src={Subimg} 
-      className="w-[80%]" 
+      className="w-[200%] mt-25" 
       />
-      <div className="w-full h-[40%] absolute bg-[#FA701B] bottom-0 rounded-t-[9vw] p-[5vw] ">
+      <div className="w-full h-[40%] absolute bg-black bottom-0 rounded-t-[9vw] p-[5vw] ">
         <div className="w-full h-full  flex flex-col items-center">
           <h1 className="text-2xl w-[65%] text-center text-white font-semibold leading-10 mt-[5vw]">
             {currentdata.t1}
@@ -96,7 +98,7 @@ const Landing = () => {
               </>
             ) : (
               <button
-                className="w-full whitespace-nowrap text-[#FA701B] font-bold flex justify-center items-center gap-3 text-[4vw] bg-white px-5 py-2 rounded-lg "
+                className="w-full whitespace-nowrap text-black font-bold flex justify-center items-center gap-3 text-[4vw] bg-white px-5 py-2 rounded-lg "
                 onClick={handle_Start}
               >
                 Get Started

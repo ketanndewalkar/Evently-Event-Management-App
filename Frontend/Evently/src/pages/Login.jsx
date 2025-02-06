@@ -3,7 +3,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import { CiMail } from "react-icons/ci";
 import { HiOutlineLockClosed } from "react-icons/hi2";
 import { FaEye } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -51,20 +51,21 @@ const Login = () => {
                 <input className="" type="checkbox" id="check" />
                 Remember Me
               </label>
-              <a href="#" className="text-sm text-[#FA701B] ml-20">
+              <a href="#" className="text-sm text-black ml-20">
                 Forgot Password?
               </a>
             </div>
-            <button className="w-full h-13 mt-14 bg-[#FA701B] text-white rounded-lg">
+            <button className="w-full h-13 mt-14 bg-black text-white rounded-lg">
               Log In
             </button>
           </form>
-          <p className="text-sm w-full text-center mt-6">
+          <p className="text-sm w-full text-center mt-6 text-gray-600">
             Don`t have Account?
-            <span className="text-[#FA701B]" onClick={()=>navigate("/signup")}>Sign up</span>
+            <span className="text-black " onClick={()=>navigate("/signup")}> Sign up</span>
           </p>
         </div>
       </div>
+      <Link to="/home">Home </Link>
     </>
   );
 };
