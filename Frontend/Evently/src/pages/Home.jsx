@@ -7,9 +7,11 @@ import star from "../../asset/star.png";
 import gucci from "../../asset/Gucci.png";
 import calvin from "../../asset/calvin.png";
 import prada from "../../asset/prada.png";
-import versace from "../../asset/versace.png";
+import versace1 from "../../asset/versace.png";
 import zara from "../../asset/zara.png";
-
+import tshirt from "../../asset/tshirt.png";
+import { FaStar } from "react-icons/fa";
+import { FaStarHalf } from "react-icons/fa"
 const Home = () => {
   return (
     <>
@@ -48,13 +50,211 @@ const Home = () => {
           <img src={star} className="absolute w-15 top-28 left-6" />
           <img src={model} />
         </div>
-        <div className=" handle_company w-full h-25 flex flex-wrap gap-9 justify-center bg-black gap-y-0 items-center">
-          <img src={versace} className="w-33 h-11" />
+        
+      </div>
+      <div className=" handle_company w-full h-25 flex flex-wrap gap-9 px-2 justify-center bg-black gap-y-0 items-center">
+          <img src={versace1} className="w-33 h-11" />
           <img src={zara} className="w-25 h-9" />
           <img src={gucci} className="w-35 h-9" />
           <img src={prada} className="w-20 h-10" />
           <img src={calvin} className="w-27 h-10" />
-        </div>
+      </div>
+      <div className="w-full px-4 ">
+          <h1 className="w-full text-4xl custom1 text-center mt-15"> NEW ARRIVALS</h1>
+          <div className="flex mt-6 overflow-x-scroll shrink-0">
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+          </div>
+          <div className="w-full h-14 border-1 border-gray-400 rounded-full font- font-bold text-gray-900 flex justify-center items-center text-1xl mt-4"><span>View All</span></div>
+          <div className="w-full border-b-1 border-gray-300 mt-7"></div> 
+          <h1 className="w-full text-4xl custom1 text-center mt-15"> TOP SELLING</h1>
+          <div className="flex mt-6 overflow-x-scroll shrink-0">
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+            <div className="w-60 h-90 p-3 shrink-0">
+              <div className="w-full h-2/3 bg-gray-200 rounded-lg flex justify-center items-center">
+                <img src={tshirt} className="w-[90%] "/>
+              </div>
+              <h1 className="text-1xl font-bold mt-2 ml-1 leading-6">Tshirt with Tap Details</h1>
+              <div className="flex gap-2 mt-1 ml-1 items-center">
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStar  className="text-1xl"/></span>
+                <span className=""><FaStarHalf  className="text-1xl"/></span>
+                <p>4.5/5</p>
+              </div>
+              <p className="text-2xl mt-1 ml-1 font-bold">$49.99</p>
+            </div>
+          </div>
+          <div className="w-full h-14 border-1 border-gray-400 rounded-full font- font-bold text-gray-900 flex justify-center items-center text-1xl mt-4"><span>View All</span></div>
+          <div className="w-full border-b-1 border-gray-300 mt-7"></div>
+          <div className="w-full ">
+
+          </div>
+
+          
       </div>
     </>
   );
