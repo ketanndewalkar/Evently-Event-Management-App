@@ -13,10 +13,11 @@ import { FaGooglePay } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='w-full px-4 py-4 bg-gray-200'>
+    <div className='w-full px-4 py-4 bg-white relative z-0'>
+      
         <div className='w-full h-[30vh] p-6 bg-black border-2 border-black rounded-4xl flex flex-col justify-center items-center gap-3'>
             <h1 className='text-3xl w-full font-bold text-white custom1'>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
-            <span className='bg-white w-full rounded-3xl flex items-center h-12 px-3'>
+            <span className='bg-white w-full rounded-3xl flex items-center h-12 px-5'>
               <MdOutlineMail className='text-3xl text-gray-400'/>
               <input
               className='px-2 border-none outline-none w-full'

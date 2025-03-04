@@ -22,3 +22,21 @@
         height: 40vw;
     }
 }
+
+/* Hide scrollbar but allow scrolling */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+.scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.border{
+    border:2px solid black
+}
+
+.active{
+    color:black;
+}

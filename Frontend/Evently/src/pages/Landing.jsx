@@ -45,7 +45,7 @@ const Landing = () => {
   };
 
   return (
-    <div className="w-[100vw] h-[100vh] flex flex-col items-center relative overflow-y-hidden">
+    <div className="w-[100vw] h-[94.2vh] flex flex-col items-center relative overflow-y-hidden">
       <img 
         src={LOGO} 
         className="w-[50%] mt-[10vh]" 
@@ -54,7 +54,7 @@ const Landing = () => {
       src={Subimg} 
       className="w-[200%] mt-25" 
       />
-      <div className="w-full h-[40%] absolute bg-black bottom-0 rounded-t-[9vw] p-[5vw] ">
+      <div className="w-full h- absolute bg-black bottom-0 rounded-t-[9vw] p-[5vw] ">
         <div className="w-full h-full  flex flex-col items-center">
           <h1 className="text-2xl w-[65%] text-center text-white font-semibold leading-10 mt-[5vw]">
             {currentdata.t1}
@@ -62,7 +62,7 @@ const Landing = () => {
           <p className="w-[80%] text-gray-300 text-[3.5vw] text-center mt-[5vw] leading-7">
             {currentdata.t2}
           </p>
-          <div className="w-[85%] flex justify-between p-[4vw] mt-10 relative top-0">
+          <div className="w-[85%] flex justify-between p-[4vw] mt-10 relative top-0 items-center">
             {currentpage !== data.length - 1 ? (
               <>
                 <button
