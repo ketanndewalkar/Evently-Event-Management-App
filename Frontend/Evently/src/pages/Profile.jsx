@@ -1,12 +1,15 @@
-import React, { useRef, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import Edit from "../components/Edit";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { AuthContext } from "../context/AuthContext";
 
 const Profile = () => {
-  const [arr,setarr] = useState(["Name", "Profile Image", "Change Password", "Username"]);
+
+  const {logout} = useContext(AuthContext);
+  const [arr,setarr] = useState(["Email", "Profile Image", "Change Password", "Username"]);
   const [field, setfield] = useState(0)
   const edit = useRef(null);
   const profile = useRef(null);
@@ -30,7 +33,7 @@ const Profile = () => {
     }
   };
 
-  const handleEdit = (num) =>{
+  const handleEdit = (num)=>{
     setShowEdit(true);
     setfield(num);
     
@@ -70,7 +73,12 @@ const Profile = () => {
             </>
           ))}
           
-          <button className="w-full h-13 mt-14 bg-black text-white rounded-lg">
+          <button 
+            className="w-full h-13 mt-14 bg-black text-white rounded-lg" 
+            onClick={()=>{
+              logout();
+              navigate("/login");
+            }}>
             Log Out
           </button>
         </div>
